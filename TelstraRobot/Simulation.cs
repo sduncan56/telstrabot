@@ -17,7 +17,7 @@ namespace TelstraRobot
         public Robot Robot { get; set; }
 
 
-        private bool placed = false;
+        public bool Placed { get; set; }
 
         public Simulation()
         {
@@ -29,7 +29,7 @@ namespace TelstraRobot
             if (!CheckPositionValid(x, y)) return false;
 
             Robot.SetPlace(x, y, direction);
-            placed = true;
+            Placed = true;
             return true;
         }
 
