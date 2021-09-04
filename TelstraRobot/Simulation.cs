@@ -42,9 +42,9 @@ namespace TelstraRobot
                 case Direction.SOUTH:
                     return MakeMove(0, -1);
                 case Direction.EAST:
-                    return MakeMove(-1, 0);
-                case Direction.WEST:
                     return MakeMove(1, 0);
+                case Direction.WEST:
+                    return MakeMove(-1, 0);
                 
             }
 

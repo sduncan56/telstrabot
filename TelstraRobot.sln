@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31515.178
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelstraRobot", "TelstraRobot\TelstraRobot.csproj", "{A2C3B4E1-1C7B-46C3-A210-612CD788E0B2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TelstraRobot", "TelstraRobot\TelstraRobot.csproj", "{A2C3B4E1-1C7B-46C3-A210-612CD788E0B2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TelstraRobotTests", "TelstraRobotTests\TelstraRobotTests.csproj", "{C4B5B8B0-D808-4528-9C4A-79D6238CE184}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TelstraRobotTests", "TelstraRobotTests\TelstraRobotTests.csproj", "{C4B5B8B0-D808-4528-9C4A-79D6238CE184}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UserInterface", "UserInterface\UserInterface.csproj", "{81525EDC-A7BC-4746-92EE-50ADFBF01C12}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{C4B5B8B0-D808-4528-9C4A-79D6238CE184}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C4B5B8B0-D808-4528-9C4A-79D6238CE184}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C4B5B8B0-D808-4528-9C4A-79D6238CE184}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81525EDC-A7BC-4746-92EE-50ADFBF01C12}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81525EDC-A7BC-4746-92EE-50ADFBF01C12}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81525EDC-A7BC-4746-92EE-50ADFBF01C12}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81525EDC-A7BC-4746-92EE-50ADFBF01C12}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

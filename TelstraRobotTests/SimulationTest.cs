@@ -34,8 +34,8 @@ namespace TelstraRobotTests
         [Theory]
         [InlineData(2, 3, Direction.NORTH)]
         [InlineData(2, 1, Direction.SOUTH)]
-        [InlineData(3, 2, Direction.WEST)]
-        [InlineData(1, 2, Direction.EAST)]
+        [InlineData(1, 2, Direction.WEST)]
+        [InlineData(3, 2, Direction.EAST)]
 
         public void MakeValidMove(int x, int y, Direction direction)
         {
@@ -50,8 +50,8 @@ namespace TelstraRobotTests
         [Theory]
         [InlineData(2, 5, Direction.NORTH)]
         [InlineData(2, 0, Direction.SOUTH)]
-        [InlineData(0, 2, Direction.EAST)]
-        [InlineData(5, 2, Direction.WEST)]
+        [InlineData(0, 2, Direction.WEST)]
+        [InlineData(5, 2, Direction.EAST)]
         public void MakeInvalidMove(int x, int y, Direction direction)
         {
             var expected = new Robot() { X = x, Y = y, Direction = direction };

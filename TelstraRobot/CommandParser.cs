@@ -19,7 +19,10 @@ namespace TelstraRobot
 
                 int x = Int32.Parse(data[0]);
                 int y = Int32.Parse(data[1]);
-                var direction = (Direction)Enum.Parse(typeof(Direction), data[2]);
+
+                var direction = _simulation.Robot.Direction;
+                if (data.Length > 2)
+                  direction = (Direction)Enum.Parse(typeof(Direction), data[2]);
 
                 _simulation.Place(x, y, direction);
             }
