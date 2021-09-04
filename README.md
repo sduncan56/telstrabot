@@ -1,0 +1,1 @@
+To run the project, open the solution in Visual Studio and run the UserInterface project.
